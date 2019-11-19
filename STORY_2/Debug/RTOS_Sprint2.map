@@ -1,0 +1,957 @@
+Archive member included because of file (symbol)
+
+e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              ./SERVICE/SRC/tasks.o (__do_copy_data)
+e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              ./SERVICE/SRC/heap_1.o (__do_clear_bss)
+e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                              ./SERVICE/SRC/queue.o (memcpy)
+e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+                              ./SERVICE/SRC/stream_buffer.o (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_xPush_Button_Flags
+                    0x2               ./APP/SRC/Sprint2_Story2.o
+g_xPush_Botton_Mutex
+                    0x2               ./APP/SRC/Sprint2_Story2.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD ./SERVICE/SRC/croutine.o
+LOAD ./SERVICE/SRC/event_groups.o
+LOAD ./SERVICE/SRC/heap_1.o
+LOAD ./SERVICE/SRC/list.o
+LOAD ./SERVICE/SRC/port.o
+LOAD ./SERVICE/SRC/queue.o
+LOAD ./SERVICE/SRC/stream_buffer.o
+LOAD ./SERVICE/SRC/tasks.o
+LOAD ./SERVICE/SRC/timers.o
+LOAD ./MCAL/SRC/DIO.o
+LOAD ./MCAL/SRC/DIO_conf.o
+LOAD ./ECUAL/SRC/INFO_LCD.o
+LOAD ./ECUAL/SRC/LED.o
+LOAD ./APP/SRC/Sprint2_Story2.o
+LOAD ./main.o
+LOAD e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x6ba8
+ *(.vectors)
+ .vectors       0x00000000       0x54 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x0000008e                __vector_1
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_13
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_15
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+ .text          0x00000092        0x0 ./SERVICE/SRC/croutine.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/event_groups.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/heap_1.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/list.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/port.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/queue.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/stream_buffer.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/tasks.o
+ .text          0x00000092        0x0 ./SERVICE/SRC/timers.o
+ .text          0x00000092        0x0 ./MCAL/SRC/DIO.o
+ .text          0x00000092        0x0 ./MCAL/SRC/DIO_conf.o
+ .text          0x00000092        0x0 ./ECUAL/SRC/INFO_LCD.o
+ .text          0x00000092        0x0 ./ECUAL/SRC/LED.o
+ .text          0x00000092        0x0 ./APP/SRC/Sprint2_Story2.o
+ .text          0x00000092        0x0 ./main.o
+ .text          0x00000092        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000092        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000092        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000092        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .text          0x00000092        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.xEventGroupCreate
+                0x00000092       0x3e ./SERVICE/SRC/event_groups.o
+                0x00000092                xEventGroupCreate
+ .text.xEventGroupSync
+                0x000000d0      0x172 ./SERVICE/SRC/event_groups.o
+                0x000000d0                xEventGroupSync
+ .text.xEventGroupWaitBits
+                0x00000242      0x18c ./SERVICE/SRC/event_groups.o
+                0x00000242                xEventGroupWaitBits
+ .text.xEventGroupClearBits
+                0x000003ce       0x6c ./SERVICE/SRC/event_groups.o
+                0x000003ce                xEventGroupClearBits
+ .text.xEventGroupGetBitsFromISR
+                0x0000043a       0x44 ./SERVICE/SRC/event_groups.o
+                0x0000043a                xEventGroupGetBitsFromISR
+ .text.xEventGroupSetBits
+                0x0000047e      0x164 ./SERVICE/SRC/event_groups.o
+                0x0000047e                xEventGroupSetBits
+ .text.vEventGroupDelete
+                0x000005e2       0x62 ./SERVICE/SRC/event_groups.o
+                0x000005e2                vEventGroupDelete
+ .text.vEventGroupSetBitsCallback
+                0x00000644       0x3a ./SERVICE/SRC/event_groups.o
+                0x00000644                vEventGroupSetBitsCallback
+ .text.vEventGroupClearBitsCallback
+                0x0000067e       0x3a ./SERVICE/SRC/event_groups.o
+                0x0000067e                vEventGroupClearBitsCallback
+ .text.prvTestWaitCondition
+                0x000006b8       0x64 ./SERVICE/SRC/event_groups.o
+ .text.pvPortMalloc
+                0x0000071c       0xac ./SERVICE/SRC/heap_1.o
+                0x0000071c                pvPortMalloc
+ .text.vPortFree
+                0x000007c8       0x18 ./SERVICE/SRC/heap_1.o
+                0x000007c8                vPortFree
+ .text.vPortInitialiseBlocks
+                0x000007e0       0x16 ./SERVICE/SRC/heap_1.o
+                0x000007e0                vPortInitialiseBlocks
+ .text.xPortGetFreeHeapSize
+                0x000007f6       0x1e ./SERVICE/SRC/heap_1.o
+                0x000007f6                xPortGetFreeHeapSize
+ .text.vListInitialise
+                0x00000814       0x54 ./SERVICE/SRC/list.o
+                0x00000814                vListInitialise
+ .text.vListInitialiseItem
+                0x00000868       0x20 ./SERVICE/SRC/list.o
+                0x00000868                vListInitialiseItem
+ .text.vListInsertEnd
+                0x00000888       0x88 ./SERVICE/SRC/list.o
+                0x00000888                vListInsertEnd
+ .text.vListInsert
+                0x00000910       0xd8 ./SERVICE/SRC/list.o
+                0x00000910                vListInsert
+ .text.uxListRemove
+                0x000009e8       0x98 ./SERVICE/SRC/list.o
+                0x000009e8                uxListRemove
+ .text.pxPortInitialiseStack
+                0x00000a80      0x306 ./SERVICE/SRC/port.o
+                0x00000a80                pxPortInitialiseStack
+ .text.xPortStartScheduler
+                0x00000d86       0x6a ./SERVICE/SRC/port.o
+                0x00000d86                xPortStartScheduler
+ .text.vPortEndScheduler
+                0x00000df0        0xe ./SERVICE/SRC/port.o
+                0x00000df0                vPortEndScheduler
+ .text.vPortYield
+                0x00000dfe       0xb2 ./SERVICE/SRC/port.o
+                0x00000dfe                vPortYield
+ .text.vPortYieldFromTick
+                0x00000eb0       0xba ./SERVICE/SRC/port.o
+                0x00000eb0                vPortYieldFromTick
+ .text.prvSetupTimerInterrupt
+                0x00000f6a       0xb8 ./SERVICE/SRC/port.o
+ .text.__vector_7
+                0x00001022        0x6 ./SERVICE/SRC/port.o
+                0x00001022                __vector_7
+ .text.xQueueGenericReset
+                0x00001028      0x10c ./SERVICE/SRC/queue.o
+                0x00001028                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x00001134       0xa2 ./SERVICE/SRC/queue.o
+                0x00001134                xQueueGenericCreate
+ .text.prvInitialiseNewQueue
+                0x000011d6       0x76 ./SERVICE/SRC/queue.o
+ .text.prvInitialiseMutex
+                0x0000124c       0x48 ./SERVICE/SRC/queue.o
+ .text.xQueueCreateMutex
+                0x00001294       0x40 ./SERVICE/SRC/queue.o
+                0x00001294                xQueueCreateMutex
+ .text.xQueueGenericSend
+                0x000012d4      0x158 ./SERVICE/SRC/queue.o
+                0x000012d4                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000142c       0xb0 ./SERVICE/SRC/queue.o
+                0x0000142c                xQueueGenericSendFromISR
+ .text.xQueueGiveFromISR
+                0x000014dc       0xa2 ./SERVICE/SRC/queue.o
+                0x000014dc                xQueueGiveFromISR
+ .text.xQueueReceive
+                0x0000157e      0x156 ./SERVICE/SRC/queue.o
+                0x0000157e                xQueueReceive
+ .text.xQueueSemaphoreTake
+                0x000016d4      0x1aa ./SERVICE/SRC/queue.o
+                0x000016d4                xQueueSemaphoreTake
+ .text.xQueuePeek
+                0x0000187e      0x164 ./SERVICE/SRC/queue.o
+                0x0000187e                xQueuePeek
+ .text.xQueueReceiveFromISR
+                0x000019e2       0xae ./SERVICE/SRC/queue.o
+                0x000019e2                xQueueReceiveFromISR
+ .text.xQueuePeekFromISR
+                0x00001a90       0x72 ./SERVICE/SRC/queue.o
+                0x00001a90                xQueuePeekFromISR
+ .text.uxQueueMessagesWaiting
+                0x00001b02       0x30 ./SERVICE/SRC/queue.o
+                0x00001b02                uxQueueMessagesWaiting
+ .text.uxQueueSpacesAvailable
+                0x00001b32       0x4a ./SERVICE/SRC/queue.o
+                0x00001b32                uxQueueSpacesAvailable
+ .text.uxQueueMessagesWaitingFromISR
+                0x00001b7c       0x34 ./SERVICE/SRC/queue.o
+                0x00001b7c                uxQueueMessagesWaitingFromISR
+ .text.vQueueDelete
+                0x00001bb0       0x2e ./SERVICE/SRC/queue.o
+                0x00001bb0                vQueueDelete
+ .text.prvGetDisinheritPriorityAfterTimeout
+                0x00001bde       0x42 ./SERVICE/SRC/queue.o
+ .text.prvCopyDataToQueue
+                0x00001c20      0x170 ./SERVICE/SRC/queue.o
+ .text.prvCopyDataFromQueue
+                0x00001d90       0x8e ./SERVICE/SRC/queue.o
+ .text.prvUnlockQueue
+                0x00001e1e       0xa6 ./SERVICE/SRC/queue.o
+ .text.prvIsQueueEmpty
+                0x00001ec4       0x3a ./SERVICE/SRC/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x00001efe       0x3e ./SERVICE/SRC/queue.o
+                0x00001efe                xQueueIsQueueEmptyFromISR
+ .text.prvIsQueueFull
+                0x00001f3c       0x40 ./SERVICE/SRC/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x00001f7c       0x44 ./SERVICE/SRC/queue.o
+                0x00001f7c                xQueueIsQueueFullFromISR
+ .text.xStreamBufferGenericCreate
+                0x00001fc0       0x98 ./SERVICE/SRC/stream_buffer.o
+                0x00001fc0                xStreamBufferGenericCreate
+ .text.vStreamBufferDelete
+                0x00002058       0x52 ./SERVICE/SRC/stream_buffer.o
+                0x00002058                vStreamBufferDelete
+ .text.xStreamBufferReset
+                0x000020aa       0x84 ./SERVICE/SRC/stream_buffer.o
+                0x000020aa                xStreamBufferReset
+ .text.xStreamBufferSetTriggerLevel
+                0x0000212e       0x6e ./SERVICE/SRC/stream_buffer.o
+                0x0000212e                xStreamBufferSetTriggerLevel
+ .text.xStreamBufferSpacesAvailable
+                0x0000219c       0x8c ./SERVICE/SRC/stream_buffer.o
+                0x0000219c                xStreamBufferSpacesAvailable
+ .text.xStreamBufferBytesAvailable
+                0x00002228       0x3c ./SERVICE/SRC/stream_buffer.o
+                0x00002228                xStreamBufferBytesAvailable
+ .text.xStreamBufferSend
+                0x00002264      0x190 ./SERVICE/SRC/stream_buffer.o
+                0x00002264                xStreamBufferSend
+ .text.xStreamBufferSendFromISR
+                0x000023f4       0xfa ./SERVICE/SRC/stream_buffer.o
+                0x000023f4                xStreamBufferSendFromISR
+ .text.prvWriteMessageToBuffer
+                0x000024ee       0xe4 ./SERVICE/SRC/stream_buffer.o
+ .text.xStreamBufferReceive
+                0x000025d2      0x174 ./SERVICE/SRC/stream_buffer.o
+                0x000025d2                xStreamBufferReceive
+ .text.xStreamBufferNextMessageLengthBytes
+                0x00002746       0xa4 ./SERVICE/SRC/stream_buffer.o
+                0x00002746                xStreamBufferNextMessageLengthBytes
+ .text.xStreamBufferReceiveFromISR
+                0x000027ea       0xf0 ./SERVICE/SRC/stream_buffer.o
+                0x000027ea                xStreamBufferReceiveFromISR
+ .text.prvReadMessageFromBuffer
+                0x000028da       0xd8 ./SERVICE/SRC/stream_buffer.o
+ .text.xStreamBufferIsEmpty
+                0x000029b2       0x5a ./SERVICE/SRC/stream_buffer.o
+                0x000029b2                xStreamBufferIsEmpty
+ .text.xStreamBufferIsFull
+                0x00002a0c       0x70 ./SERVICE/SRC/stream_buffer.o
+                0x00002a0c                xStreamBufferIsFull
+ .text.xStreamBufferSendCompletedFromISR
+                0x00002a7c       0x86 ./SERVICE/SRC/stream_buffer.o
+                0x00002a7c                xStreamBufferSendCompletedFromISR
+ .text.xStreamBufferReceiveCompletedFromISR
+                0x00002b02       0x86 ./SERVICE/SRC/stream_buffer.o
+                0x00002b02                xStreamBufferReceiveCompletedFromISR
+ .text.prvWriteBytesToBuffer
+                0x00002b88      0x11a ./SERVICE/SRC/stream_buffer.o
+ .text.prvReadBytesFromBuffer
+                0x00002ca2      0x15a ./SERVICE/SRC/stream_buffer.o
+ .text.prvBytesInBuffer
+                0x00002dfc       0x74 ./SERVICE/SRC/stream_buffer.o
+ .text.prvInitialiseNewStreamBuffer
+                0x00002e70       0x78 ./SERVICE/SRC/stream_buffer.o
+ .text.xTaskCreate
+                0x00002ee8       0xf0 ./SERVICE/SRC/tasks.o
+                0x00002ee8                xTaskCreate
+ .text.prvInitialiseNewTask
+                0x00002fd8      0x186 ./SERVICE/SRC/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x0000315e       0xf0 ./SERVICE/SRC/tasks.o
+ .text.vTaskDelete
+                0x0000324e       0xe4 ./SERVICE/SRC/tasks.o
+                0x0000324e                vTaskDelete
+ .text.vTaskDelay
+                0x00003332       0x44 ./SERVICE/SRC/tasks.o
+                0x00003332                vTaskDelay
+ .text.vTaskSuspend
+                0x00003376       0xe8 ./SERVICE/SRC/tasks.o
+                0x00003376                vTaskSuspend
+ .text.prvTaskIsTaskSuspended
+                0x0000345e       0x5e ./SERVICE/SRC/tasks.o
+ .text.vTaskResume
+                0x000034bc       0xc8 ./SERVICE/SRC/tasks.o
+                0x000034bc                vTaskResume
+ .text.xTaskResumeFromISR
+                0x00003584       0xcc ./SERVICE/SRC/tasks.o
+                0x00003584                xTaskResumeFromISR
+ .text.vTaskStartScheduler
+                0x00003650       0x64 ./SERVICE/SRC/tasks.o
+                0x00003650                vTaskStartScheduler
+ .text.vTaskEndScheduler
+                0x000036b4       0x18 ./SERVICE/SRC/tasks.o
+                0x000036b4                vTaskEndScheduler
+ .text.vTaskSuspendAll
+                0x000036cc       0x18 ./SERVICE/SRC/tasks.o
+                0x000036cc                vTaskSuspendAll
+ .text.xTaskResumeAll
+                0x000036e4      0x126 ./SERVICE/SRC/tasks.o
+                0x000036e4                xTaskResumeAll
+ .text.xTaskGetTickCount
+                0x0000380a       0x2e ./SERVICE/SRC/tasks.o
+                0x0000380a                xTaskGetTickCount
+ .text.xTaskGetTickCountFromISR
+                0x00003838       0x2a ./SERVICE/SRC/tasks.o
+                0x00003838                xTaskGetTickCountFromISR
+ .text.uxTaskGetNumberOfTasks
+                0x00003862       0x12 ./SERVICE/SRC/tasks.o
+                0x00003862                uxTaskGetNumberOfTasks
+ .text.pcTaskGetName
+                0x00003874       0x50 ./SERVICE/SRC/tasks.o
+                0x00003874                pcTaskGetName
+ .text.xTaskIncrementTick
+                0x000038c4      0x1ca ./SERVICE/SRC/tasks.o
+                0x000038c4                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x00003a8e       0xda ./SERVICE/SRC/tasks.o
+                0x00003a8e                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x00003b68       0x44 ./SERVICE/SRC/tasks.o
+                0x00003b68                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnUnorderedEventList
+                0x00003bac       0x60 ./SERVICE/SRC/tasks.o
+                0x00003bac                vTaskPlaceOnUnorderedEventList
+ .text.xTaskRemoveFromEventList
+                0x00003c0c       0xd6 ./SERVICE/SRC/tasks.o
+                0x00003c0c                xTaskRemoveFromEventList
+ .text.vTaskRemoveFromUnorderedEventList
+                0x00003ce2       0xba ./SERVICE/SRC/tasks.o
+                0x00003ce2                vTaskRemoveFromUnorderedEventList
+ .text.vTaskSetTimeOutState
+                0x00003d9c       0x3c ./SERVICE/SRC/tasks.o
+                0x00003d9c                vTaskSetTimeOutState
+ .text.vTaskInternalSetTimeOutState
+                0x00003dd8       0x32 ./SERVICE/SRC/tasks.o
+                0x00003dd8                vTaskInternalSetTimeOutState
+ .text.xTaskCheckForTimeOut
+                0x00003e0a       0xda ./SERVICE/SRC/tasks.o
+                0x00003e0a                xTaskCheckForTimeOut
+ .text.vTaskMissedYield
+                0x00003ee4       0x14 ./SERVICE/SRC/tasks.o
+                0x00003ee4                vTaskMissedYield
+ .text.prvIdleTask
+                0x00003ef8       0x14 ./SERVICE/SRC/tasks.o
+ .text.prvInitialiseTaskLists
+                0x00003f0c       0x82 ./SERVICE/SRC/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x00003f8e       0x5e ./SERVICE/SRC/tasks.o
+ .text.prvDeleteTCB
+                0x00003fec       0x2c ./SERVICE/SRC/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x00004018       0x56 ./SERVICE/SRC/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000406e       0x24 ./SERVICE/SRC/tasks.o
+                0x0000406e                xTaskGetCurrentTaskHandle
+ .text.xTaskPriorityInherit
+                0x00004092      0x13c ./SERVICE/SRC/tasks.o
+                0x00004092                xTaskPriorityInherit
+ .text.xTaskPriorityDisinherit
+                0x000041ce       0xe4 ./SERVICE/SRC/tasks.o
+                0x000041ce                xTaskPriorityDisinherit
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x000042b2      0x12a ./SERVICE/SRC/tasks.o
+                0x000042b2                vTaskPriorityDisinheritAfterTimeout
+ .text.uxTaskResetEventItemValue
+                0x000043dc       0x4e ./SERVICE/SRC/tasks.o
+                0x000043dc                uxTaskResetEventItemValue
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000442a       0x30 ./SERVICE/SRC/tasks.o
+                0x0000442a                pvTaskIncrementMutexHeldCount
+ .text.ulTaskNotifyTake
+                0x0000445a       0xee ./SERVICE/SRC/tasks.o
+                0x0000445a                ulTaskNotifyTake
+ .text.xTaskNotifyWait
+                0x00004548      0x138 ./SERVICE/SRC/tasks.o
+                0x00004548                xTaskNotifyWait
+ .text.xTaskGenericNotify
+                0x00004680      0x1ba ./SERVICE/SRC/tasks.o
+                0x00004680                xTaskGenericNotify
+ .text.xTaskGenericNotifyFromISR
+                0x0000483a      0x1f0 ./SERVICE/SRC/tasks.o
+                0x0000483a                xTaskGenericNotifyFromISR
+ .text.vTaskNotifyGiveFromISR
+                0x00004a2a      0x10c ./SERVICE/SRC/tasks.o
+                0x00004a2a                vTaskNotifyGiveFromISR
+ .text.xTaskNotifyStateClear
+                0x00004b36       0x74 ./SERVICE/SRC/tasks.o
+                0x00004b36                xTaskNotifyStateClear
+ .text.prvAddCurrentTaskToDelayedList
+                0x00004baa       0xf8 ./SERVICE/SRC/tasks.o
+ .text.DIO_Init
+                0x00004ca2      0xb64 ./MCAL/SRC/DIO.o
+                0x00004ca2                DIO_Init
+ .text.DIO_Write
+                0x00005806      0x2fa ./MCAL/SRC/DIO.o
+                0x00005806                DIO_Write
+ .text.DIO_Read
+                0x00005b00      0x1e4 ./MCAL/SRC/DIO.o
+                0x00005b00                DIO_Read
+ .text.LCD_sendCommand
+                0x00005ce4      0x130 ./ECUAL/SRC/INFO_LCD.o
+                0x00005ce4                LCD_sendCommand
+ .text.LCD_DataWr
+                0x00005e14      0x13a ./ECUAL/SRC/INFO_LCD.o
+                0x00005e14                LCD_DataWr
+ .text.LCD_DispChar
+                0x00005f4e       0x60 ./ECUAL/SRC/INFO_LCD.o
+                0x00005f4e                LCD_DispChar
+ .text.LCD_init
+                0x00005fae      0x1d0 ./ECUAL/SRC/INFO_LCD.o
+                0x00005fae                LCD_init
+ .text.LCD_displayString
+                0x0000617e       0x98 ./ECUAL/SRC/INFO_LCD.o
+                0x0000617e                LCD_displayString
+ .text.LCD_displayStringRowColumn
+                0x00006216      0x124 ./ECUAL/SRC/INFO_LCD.o
+                0x00006216                LCD_displayStringRowColumn
+ .text.LCD_gotoRowColumn
+                0x0000633a       0x84 ./ECUAL/SRC/INFO_LCD.o
+                0x0000633a                LCD_gotoRowColumn
+ .text.LCD_Clear
+                0x000063be       0x50 ./ECUAL/SRC/INFO_LCD.o
+                0x000063be                LCD_Clear
+ .text.LCD_VidDrawPattern
+                0x0000640e      0x244 ./ECUAL/SRC/INFO_LCD.o
+                0x0000640e                LCD_VidDrawPattern
+ .text.vidTOGGLE_Led
+                0x00006652       0x38 ./ECUAL/SRC/LED.o
+                0x00006652                vidTOGGLE_Led
+ .text.vidLED_On
+                0x0000668a       0x1c ./ECUAL/SRC/LED.o
+                0x0000668a                vidLED_On
+ .text.vidLED_off
+                0x000066a6       0x1c ./ECUAL/SRC/LED.o
+                0x000066a6                vidLED_off
+ .text.vidINIT_Task
+                0x000066c2       0x5a ./APP/SRC/Sprint2_Story2.o
+                0x000066c2                vidINIT_Task
+ .text.vidPB1_Task
+                0x0000671c       0xf4 ./APP/SRC/Sprint2_Story2.o
+                0x0000671c                vidPB1_Task
+ .text.vidPB2_Task
+                0x00006810       0xf4 ./APP/SRC/Sprint2_Story2.o
+                0x00006810                vidPB2_Task
+ .text.vidLED_Task
+                0x00006904       0xc6 ./APP/SRC/Sprint2_Story2.o
+                0x00006904                vidLED_Task
+ .text.vidLCD_Task
+                0x000069ca       0xdc ./APP/SRC/Sprint2_Story2.o
+                0x000069ca                vidLCD_Task
+ .text.vidCreateAllMutex
+                0x00006aa6       0x1c ./APP/SRC/Sprint2_Story2.o
+                0x00006aa6                vidCreateAllMutex
+ .text.vidCreatAllEvents
+                0x00006ac2       0x1a ./APP/SRC/Sprint2_Story2.o
+                0x00006ac2                vidCreatAllEvents
+ .text.main     0x00006adc       0xa8 ./main.o
+                0x00006adc                main
+ .text.libgcc   0x00006b84        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00006b84        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00006b84        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00006b84       0x12 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00006b84                memcpy
+ .text.avr-libc
+                0x00006b96        0xe e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+                0x00006b96                memset
+                0x00006ba4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00006ba4        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00006ba4                exit
+                0x00006ba4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00006ba4        0x4 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00006ba8                _etext = .
+
+.data           0x00800060       0xa8 load address 0x00006ba8
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/croutine.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/event_groups.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/heap_1.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/list.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/port.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/queue.o
+ .data          0x00800060        0x0 ./SERVICE/SRC/stream_buffer.o
+ .data          0x00800060        0x5 ./SERVICE/SRC/tasks.o
+ .data          0x00800065        0x0 ./SERVICE/SRC/timers.o
+ .data          0x00800065        0x0 ./MCAL/SRC/DIO.o
+ .data          0x00800065        0x0 ./MCAL/SRC/DIO_conf.o
+ .data          0x00800065        0x0 ./ECUAL/SRC/INFO_LCD.o
+ .data          0x00800065        0x0 ./ECUAL/SRC/LED.o
+ .data          0x00800065       0x34 ./APP/SRC/Sprint2_Story2.o
+ .data          0x00800099       0x2d ./main.o
+ .data          0x008000c6        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x008000c6        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x008000c6        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x008000c6        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .data          0x008000c6        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.data*)
+ .data.DIO_Array
+                0x008000c6       0x42 ./MCAL/SRC/DIO_conf.o
+                0x008000c6                DIO_Array
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800108                . = ALIGN (0x2)
+                0x00800108                _edata = .
+                0x00800108                PROVIDE (__data_end, .)
+
+.bss            0x00800108      0x666
+                0x00800108                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/croutine.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/event_groups.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/heap_1.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/list.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/port.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/queue.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/stream_buffer.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/tasks.o
+ .bss           0x00800108        0x0 ./SERVICE/SRC/timers.o
+ .bss           0x00800108        0x0 ./MCAL/SRC/DIO.o
+ .bss           0x00800108        0x0 ./MCAL/SRC/DIO_conf.o
+ .bss           0x00800108        0x0 ./ECUAL/SRC/INFO_LCD.o
+ .bss           0x00800108        0x0 ./ECUAL/SRC/LED.o
+ .bss           0x00800108        0x0 ./APP/SRC/Sprint2_Story2.o
+ .bss           0x00800108        0x0 ./main.o
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memcpy.o)
+ .bss           0x00800108        0x0 e:/embedded/material.imtschool.com/00- tools/imt_sdk_win_64/imt_sdk_win_64/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(memset.o)
+ *(.bss*)
+ .bss.xNextFreeByte
+                0x00800108        0x2 ./SERVICE/SRC/heap_1.o
+ .bss.pucAlignedHeap.1646
+                0x0080010a        0x2 ./SERVICE/SRC/heap_1.o
+ .bss.ucHeap    0x0080010c      0x5dc ./SERVICE/SRC/heap_1.o
+ .bss.pxCurrentTCB
+                0x008006e8        0x2 ./SERVICE/SRC/tasks.o
+                0x008006e8                pxCurrentTCB
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x008006ea        0x1 ./SERVICE/SRC/tasks.o
+ .bss.uxCurrentNumberOfTasks
+                0x008006eb        0x1 ./SERVICE/SRC/tasks.o
+ .bss.xTickCount
+                0x008006ec        0x2 ./SERVICE/SRC/tasks.o
+ .bss.uxTopReadyPriority
+                0x008006ee        0x1 ./SERVICE/SRC/tasks.o
+ .bss.xSchedulerRunning
+                0x008006ef        0x1 ./SERVICE/SRC/tasks.o
+ .bss.uxPendedTicks
+                0x008006f0        0x1 ./SERVICE/SRC/tasks.o
+ .bss.xYieldPending
+                0x008006f1        0x1 ./SERVICE/SRC/tasks.o
+ .bss.xNumOfOverflows
+                0x008006f2        0x1 ./SERVICE/SRC/tasks.o
+ .bss.uxTaskNumber
+                0x008006f3        0x1 ./SERVICE/SRC/tasks.o
+ .bss.xNextTaskUnblockTime
+                0x008006f4        0x2 ./SERVICE/SRC/tasks.o
+ .bss.xIdleTaskHandle
+                0x008006f6        0x2 ./SERVICE/SRC/tasks.o
+ .bss.uxSchedulerSuspended
+                0x008006f8        0x1 ./SERVICE/SRC/tasks.o
+ .bss.pxReadyTasksLists
+                0x008006f9       0x24 ./SERVICE/SRC/tasks.o
+ .bss.xDelayedTaskList1
+                0x0080071d        0x9 ./SERVICE/SRC/tasks.o
+ .bss.xDelayedTaskList2
+                0x00800726        0x9 ./SERVICE/SRC/tasks.o
+ .bss.pxDelayedTaskList
+                0x0080072f        0x2 ./SERVICE/SRC/tasks.o
+ .bss.pxOverflowDelayedTaskList
+                0x00800731        0x2 ./SERVICE/SRC/tasks.o
+ .bss.xPendingReadyList
+                0x00800733        0x9 ./SERVICE/SRC/tasks.o
+ .bss.xTasksWaitingTermination
+                0x0080073c        0x9 ./SERVICE/SRC/tasks.o
+ .bss.xSuspendedTaskList
+                0x00800745        0x9 ./SERVICE/SRC/tasks.o
+ .bss.g_CMND_Flag
+                0x0080074e        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.g_Data_Flag
+                0x0080074f        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.g_InitFlag
+                0x00800750        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CMNDSTATE.1289
+                0x00800751        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_DataWrState.1321
+                0x00800752        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringData.1356
+                0x00800753        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringCMD.1379
+                0x00800754        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_InitState.1377
+                0x00800755        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_LocalIterator.1451
+                0x00800756        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringCMND.1450
+                0x00800757        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LCD_State.1449
+                0x00800758        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_LocalIterator.1485
+                0x00800759        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringCMND.1484
+                0x0080075a        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LCD_State.1483
+                0x0080075b        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringCMND.1536
+                0x0080075c        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_LcdState.1584
+                0x0080075d        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.LOC_CurrentTaskAquiringCMD.1583
+                0x0080075e        0x1 ./ECUAL/SRC/INFO_LCD.o
+ .bss.Toggle_Flag
+                0x0080075f        0x1 ./ECUAL/SRC/LED.o
+ .bss.g_Init_Flag
+                0x00800760        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_DIO_Init_Status.1822
+                0x00800761        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Semaphore_Taken.1840
+                0x00800762        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Current_SwitchStatus.1839
+                0x00800763        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Last_Switch_Status.1838
+                0x00800764        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Semaphore_Taken.1879
+                0x00800765        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Current_SwitchStatus.1878
+                0x00800766        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_Last_Switch_Status.1877
+                0x00800767        0x1 ./APP/SRC/Sprint2_Story2.o
+ .bss.LOC_LED_EventBits_Value.1916
+                0x00800768        0x2 ./APP/SRC/Sprint2_Story2.o
+ *(COMMON)
+ COMMON         0x0080076a        0x4 ./APP/SRC/Sprint2_Story2.o
+                0x0080076a                g_xPush_Button_Flags
+                0x0080076c                g_xPush_Botton_Mutex
+                0x0080076e                PROVIDE (__bss_end, .)
+                0x00006ba8                __data_load_start = LOADADDR (.data)
+                0x00006c50                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080076e        0x0
+                0x0080076e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080076e                PROVIDE (__noinit_end, .)
+                0x0080076e                _end = .
+                0x0080076e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0xa554
+ *(.stab)
+ .stab          0x00000000      0x630 ./SERVICE/SRC/croutine.o
+ .stab          0x00000630      0xde0 ./SERVICE/SRC/event_groups.o
+                               0x111c (size before relaxing)
+ .stab          0x00001410      0x30c ./SERVICE/SRC/heap_1.o
+                                0x7bc (size before relaxing)
+ .stab          0x0000171c      0x474 ./SERVICE/SRC/list.o
+                                0x858 (size before relaxing)
+ .stab          0x00001b90      0x840 ./SERVICE/SRC/port.o
+                                0xce4 (size before relaxing)
+ .stab          0x000023d0     0x1cf8 ./SERVICE/SRC/queue.o
+                               0x21a8 (size before relaxing)
+ .stab          0x000040c8     0x1608 ./SERVICE/SRC/stream_buffer.o
+                               0x1a4c (size before relaxing)
+ .stab          0x000056d0     0x2694 ./SERVICE/SRC/tasks.o
+                               0x2b74 (size before relaxing)
+ .stab          0x00007d64      0x1a4 ./SERVICE/SRC/timers.o
+                                0x6b4 (size before relaxing)
+ .stab          0x00007f08      0x7bc ./MCAL/SRC/DIO.o
+                                0x978 (size before relaxing)
+ .stab          0x000086c4      0x12c ./MCAL/SRC/DIO_conf.o
+                                0x330 (size before relaxing)
+ .stab          0x000087f0     0x10d4 ./ECUAL/SRC/INFO_LCD.o
+                               0x12e4 (size before relaxing)
+ .stab          0x000098c4      0x234 ./ECUAL/SRC/LED.o
+                                0x444 (size before relaxing)
+ .stab          0x00009af8      0x810 ./APP/SRC/Sprint2_Story2.o
+                                0xd98 (size before relaxing)
+ .stab          0x0000a308      0x24c ./main.o
+                                0x7f8 (size before relaxing)
+
+.stabstr        0x00000000     0x54f0
+ *(.stabstr)
+ .stabstr       0x00000000     0x54f0 ./SERVICE/SRC/croutine.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(RTOS_Sprint2.elf elf32-avr)
+LOAD linker stubs
